@@ -65,7 +65,7 @@
     height: 100px;
   }
 
-  h1, p {
+  h1 {
     font-weight: 900;
     outline: none;
     text-transform: uppercase;
@@ -74,11 +74,24 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent; 
-    animation: animate 15s linear infinite;
+    animation: animate 9s linear infinite;
   }
+p {
+  font-size: 110%;
+}
+
   @keyframes animate {
     to{
       background-position: 400%;
     }
   }
 
+  a {
+    font-size: 20%;
+    color: #024848;
+  }
+
+  a {
+    color: red;
+    font-size: 10px;
+  }
